@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    flex: 1;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+    height: 100vh;
+    overflow-y: auto;
+  }
+  
+  .map {
+    flex: 2;
+    height: 100vh;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  li:hover {
+    background-color: #e9ecef;
+  }
+  
